@@ -40,7 +40,7 @@ def main():
     print(f"Dataset size: {len(dataset)}")
     print(f"pos_weight: {pos_weight_value:.2f}")
 
-    epochs = 10
+    epochs = 100
     
     for epoch in range(1, epochs + 1):
         model.train()
